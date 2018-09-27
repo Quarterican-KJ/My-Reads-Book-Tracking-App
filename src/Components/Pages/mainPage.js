@@ -23,7 +23,7 @@ class mainPage extends React.Component {
       .then(resp => {
          book.shelf = shelf;
          this.setState(state => ({
-            books: state.books.filter(b => b.id !== book.id).concat({book})
+            books: state.books.filter(b => b.id !== book.id).concat(book)
          }))
       })
     }
