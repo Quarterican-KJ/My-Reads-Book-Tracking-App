@@ -2,6 +2,14 @@
 
 This project focuses on React implementation to create an app that tracks books youre currently reading, want to read, or have read. This app features a home page with a quick view of the current reads, want to read, and have read books. This app also features a search page allowing the user to search books within the backend API and then sort those books based on preferance. The app will have a persistant state so it will keep your books on their assigned shelves between app uses.
 
+## How To Install
+First, install node.js if you do not have it yet. It comes with npm(node package manage). Make sure that you install node with the PATH variable so you can run node anywhere in your command prompt/terminal.
+Once node.js is installed, install the react package using this command: npm install -g create-react-app
+The environment is now ready. After installing the react package, you can either clone this repo or download it as a zip. if you download this as a zip, you will have to extract the files.
+in your command prompt/terminal, change directory to the project root(where you cloned/extracted the repo).
+to start the react app, run this command: npm start
+This will start the app in your default browser at: localhost:3000 or your currently set equivalent.
+
 
 ## What You're Getting
 ```bash
