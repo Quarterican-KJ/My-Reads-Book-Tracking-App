@@ -1,15 +1,15 @@
 import React from 'react'
 import './App.css'
 import { Route } from 'react-router-dom'
-import mainPage from './Components/Pages/mainPage';
-import searchPage from './Components/Pages/searchPage';
+import Mainpage from './Components/Pages/Mainpage';
+import Searchpage from './Components/Pages/Searchpage';
 
 class BooksApp extends React.Component {
   render() {
     return(
       <div>
-       <Route exact path="/" component={ mainPage } />
-       <Route exact path="/search" component={ searchPage } />
+       <Route exact path="/" component={ Mainpage } />
+       <Route exact path="/search" component={ Searchpage } />
       </div>
     );
   }
