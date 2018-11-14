@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import * as BooksAPI from '../../BooksAPI'
 import Book from '../Book';
 
-class searchPage extends React.Component {
+class Searchpage extends React.Component {
    constructor(props) {
       super(props);
       this.state = {
@@ -74,4 +74,4 @@ class searchPage extends React.Component {
    }
 } 
 
-export default searchPage;
+export default Searchpage;

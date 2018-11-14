@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import * as BooksAPI from '../../BooksAPI'
 import Shelf from '../Shelf';
 
-class mainPage extends React.Component {
+class Mainpage extends React.Component {
    constructor(props) {
       super(props);
       this.state = {
@@ -49,4 +49,4 @@ class mainPage extends React.Component {
    }
 }
 
-export default mainPage;
+export default Mainpage;
