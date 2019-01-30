@@ -1,8 +1,10 @@
 # MyReads Project
 
-This is the starter template for the final assessment project for Udacity's React Fundamentals course. The goal of this template is to save you time by providing a static example of the CSS and HTML markup that may be used, but without any of the React code that is needed to complete the project. If you choose to start with this template, your job will be to add interactivity to the app by refactoring the static code in this template.
+This project focuses on React implementation to create an app that tracks books youre currently reading, want to read, or have read. This app features a home page with a quick view of the current reads, want to read, and have read books. This app also features a search page allowing the user to search books within the backend API and then sort those books based on preferance. The app will have a persistant state so it will keep your books on their assigned shelves between app uses.
 
-Of course, you are free to start this project from scratch if you wish! Just be sure to use [Create React App](https://github.com/facebookincubator/create-react-app) to bootstrap the project.
+# How To Install
+
+First, install node.js if you do not have it yet. It comes with npm(node package manage). Make sure that you install node with the PATH variable so you can run node anywhere in your command prompt/terminal. Once node.js is installed, install the react package using this command: "npm install -g create-react-app" The environment is now ready. After installing the react package, you can either clone this repo or download it as a zip. if you download this as a zip, you will have to extract the files. In your command prompt/terminal, change directory to the project root(where you cloned/extracted the repo). To start the react app, run this command: "npm start" This will start the app in your default browser at: localhost:3000 or your currently set equivalent.
 
 ## TL;DR
 
@@ -84,9 +86,3 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 ## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
